@@ -1,0 +1,68 @@
+:root {
+  --main-color: #4c5f6b;
+  --light-gray: #e8eef2;
+  --second-gray: #a3bac3;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--main-color);
+}
+
+.hero-container h1 {
+  font-size: 4rem;
+  margin: 1.7rem 0;
+}
+
+.hero-container h4 {
+  font-size: 2.5rem;
+}
+
+.hero-container h1,
+h4 {
+  color: var(--light-gray);
+}
+
+.projects {
+  height: 100vh;
+  background: var(--light-gray);
+}
+.skills {
+  height: 100vh;
+}
+.about {
+  height: 100vh;
+}
+
+.contact {
+  height: 100vh;
+}
+
+.nav-titles a {
+  color: var(--light-gray);
+  text-transform: capitalize;
+  margin: 0 4.5rem;
+  font-size: 1.3rem;
+}
+.nav-titles a:hover {
+  color: var(--second-gray);
+}
+.brand-logo {
+  color: var(--light-gray);
+  font-size: 1.9rem;
+}
+
+.brand-logo:hover {
+  color: var(--second-gray);
+}
