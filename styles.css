@@ -21,12 +21,13 @@ body {
 }
 
 .hero-container h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 1.7rem 0;
 }
 
 .hero-container h4 {
   font-size: 2.5rem;
+  margin: 1rem 0 0 0;
 }
 
 .hero-container h1,
