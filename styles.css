@@ -107,8 +107,37 @@ h4 {
 .skills {
   height: 100vh;
 }
-.about {
-  height: 100vh;
+.about-container {
+  height: 90vh;
+  background: var(--light-white);
+}
+
+.about-sections {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+}
+.about-img-container img {
+  justify-content: center;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+  height: 400px;
+  width: 350px;
+  object-position: 50% 50%;
+}
+
+.about-description {
+  width: 50vw;
+}
+
+.about-description h5 {
+  margin-left: 5px;
 }
 
 .contact {
@@ -134,4 +163,18 @@ h4 {
 
 .brand-logo:hover {
   color: var(--hover-color);
+}
+
+.titles {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 3rem;
+  color: var(--blue-gray);
+  font-family: var(--quicksand);
+}
+
+.line-break {
+  width: 75%;
+  margin: 1.7rem auto;
+  background-color: #304e63;
 }
