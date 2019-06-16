@@ -45,13 +45,12 @@ $(function() {
 $(document).ready(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 700) {
-      $('#scroll-nav').css(
-        'background',
-        'linear-gradient(rgba(91, 146, 186, 0.8), rgba(81, 130, 165, 0.9))'
-      );
+    if (scroll > 675) {
+      $('#scroll-nav').css('background', '#282b28');
+      $('#scroll-nav').css('box-shadow', '1px 4px 15px 0px rgba(0,0,0,0.6)');
     } else {
       $('#scroll-nav').css('background', 'transparent');
+      $('#scroll-nav').css('box-shadow', 'none');
     }
   });
 });
